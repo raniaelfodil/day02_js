@@ -1,0 +1,35 @@
+const imgDog = document.querySelector('.img-dogs');
+const title = document.querySelector('.title');
+
+
+imgDog.addEventListener('click', function(){
+  imgDog.src = "https://placedog.net/300";
+})
+
+
+title.addEventListener('mouseover', function () {
+  title.style.color = "blue";
+})
+
+
+
+
+
+const form = document.querySelector("#form");
+const inputTodo = document.querySelector("#todoInput");
+const todolist = document.querySelector("#todolist");
+
+
+form.onsubmit = function(event) {
+ 
+  event.preventDefault();
+
+  
+  const newTodo = document.createElement("li");
+ 
+  newTodo.innerHTML = inputTodo.value;
+  
+  todolist.appendChild(newTodo);
+ 
+  inputTodo.value = "";
+};
