@@ -1,0 +1,9 @@
+const animaux = ["Lion","Monkey","Tiger"];
+
+console.log(animaux[0]);
+console.log(animaux[1]);
+console.log(animaux[2]);
+
+console.log(animals.length);
+animals.push("cat");
+animals.unshift("fish");
