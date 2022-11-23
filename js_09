@@ -1,0 +1,32 @@
+const billyTheCat = {
+  name: "Billy",
+  color: "Ginger",
+  favouriteFoods: ["Fish", "Chicken"],
+  isHungry: false,
+  meow: function(){
+    console.log("Meoooow")
+  }
+}
+
+const selectedProperty = prompt("Select a property");
+console.log(billyTheCat[selectedProperty]);
+
+
+const animals = [
+  {name:"Billy", species:"Cat", sound:"Meow" }, 
+  {name:"Bob", species:"Dog", sound:"Woof" },
+  {name:"Jimmy", species:"Squirrel", sound:"Chit"} 
+]
+
+for(let i = 0; i < animals.length; i++){
+  console.log(animals[i].sound);
+}
+
+
+const  billyTheCat = {
+  name: "Billy", 
+  species: "Cat", 
+  isHungry: true, 
+  feed:function(){
+    
+}
