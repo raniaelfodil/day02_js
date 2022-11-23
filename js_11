@@ -1,0 +1,56 @@
+const secondCard = document.querySelector('.second-card');
+
+
+const secondCat = document.createElement('img');
+
+
+secondCat.src = "https://placekitten.com/408/287";
+
+
+secondCard.appendChild(secondCat);
+
+
+
+
+
+const secondCat = document.querySelector('#second-cat-img');
+const firstDiv = document.querySelector('#first-div');
+
+firstDiv.appendChild(secondCat);
+
+
+
+const dogs = document.querySelectorAll(".img-dog");
+
+
+for (let i = 0; i < dogs.length; i++) {  
+
+dogs[i].remove();
+}
+
+
+
+const title = document.querySelector('.title');
+const box = document.querySelector('.box');
+
+
+title.style.color = 'lightBlue';
+title.style.fontSize = '60px';
+title.style.textAlign = "center";
+box.style.backgroundColor = 'yellow';
+box.style.height = '300px';
+box.style.width = '400px';
+
+
+
+
+const thirdBox = document.createElement("div");
+
+
+thirdBox.classList.add("box");
+
+
+const containerBox = document.querySelector(".container-boxes");
+
+
+containerBox.appendChild(thirdBox);
