@@ -1,0 +1,39 @@
+const name = prompt("What's your name ?");
+
+if (name === "bob") {
+  console.log("hello bob");
+} else {
+  console.log("you're not bob, go away !");
+}
+
+
+const password = prompt ("what's the password? ")
+
+if(password === "magic") {
+  console.log("Welcome!");
+} else {
+  console.log("wrong password")
+}
+
+
+
+
+const age = prompt ("type your age")
+
+console.log(typeof(age))
+
+if (age < 3) {
+console.log("hello baby !");
+}
+
+else if ( age < 18){
+  console.log("hi !");
+}
+
+else if ( age < 100) {
+  console.log("greetings");
+}
+
+else {
+  console.log ("wow...")
+}
